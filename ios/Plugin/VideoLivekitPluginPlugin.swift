@@ -15,4 +15,8 @@ public class VideoLivekitPluginPlugin: CAPPlugin {
             "value": implementation.echo(value)
         ])
     }
+    
+    @objc func launchLivekit(_ call: CAPPluginCall) {
+            call.resolve()
+        }
 }

@@ -5,4 +5,9 @@ import Foundation
         print(value)
         return value
     }
+    
+    @objc public func launchLivekit(_ token: String) -> Void {
+            print("Token:")
+            print(token)
+        }
 }

@@ -3,4 +3,4 @@ include ':capacitor-android'
 project(':capacitor-android').projectDir = new File('../node_modules/@capacitor/android/capacitor')
 
 include ':livekit-plugin'
-project(':livekit-plugin').projectDir = new File('../../../../../../../Develop SwiftUI/livekit-plugin/android')
+project(':livekit-plugin').projectDir = new File('../node_modules/livekit-plugin/android')
