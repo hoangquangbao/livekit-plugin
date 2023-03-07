@@ -1,12 +1,24 @@
-## Created with Capacitor Create App
+# example
 
-This app was created using [`@capacitor/create-app`](https://github.com/ionic-team/create-capacitor-app),
-and comes with a very minimal shell for building an app.
-
-### Running this example
-
-To run the provided example, you can use `npm start` command.
-
-```bash
-npm start
+## Project setup
 ```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
