@@ -972,6 +972,11 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
+"@capacitor/android@^4.7.0":
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/@capacitor/android/-/android-4.7.0.tgz#00c909d800a9aa9d7e337ee5ccdfc2be2741ca20"
+  integrity sha512-hyglxuzY2mktY0ST+6Y9IpZjSKxBLsG2xtnKWsIqDvXKKBjy5xRjHJMueP4P3u5z+bpLrdY6YlyR9JMIV/Pwcg==
+
 "@capacitor/cli@^4.7.0":
   version "4.7.0"
   resolved "https://registry.yarnpkg.com/@capacitor/cli/-/cli-4.7.0.tgz#eefb5e33b9a3706a042c24af9d2e8dd353751c93"
@@ -1001,6 +1006,11 @@
   integrity sha512-LkjHnIoufojVjCZXogEbotN2utXxfo6TvpSgWaYndRPm/SrPFCWM8bPf/WNd8MozOkPFgcxlZnZlGHFGTeydWQ==
   dependencies:
     tslib "^2.1.0"
+
+"@capacitor/ios@^4.7.0":
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/@capacitor/ios/-/ios-4.7.0.tgz#ddea33ff3319555d92856f080eabed7d93b90598"
+  integrity sha512-GeuPXs4hoyQ5bQaSdBxLIGEd+TvO7IAQe00xe3tpEYsP3987SpkNUnhdW5ikUewFJmOtZIp+A8kCgWOJUmKbUg==
 
 "@discoveryjs/json-ext@0.5.7":
   version "0.5.7"
