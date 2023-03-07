@@ -9,6 +9,10 @@ end
 
 target 'Plugin' do
   capacitor_pods
+  pod 'LiveKitClient', :git => 'https://github.com/livekit/client-sdk-swift.git', :branch => 'main'
+  pod 'KeychainAccess'
+  pod 'SFSafeSymbols', '~> 4.1.1'
+  pod 'SwiftProtobuf', '~> 1.0'
 end
 
 target 'PluginTests' do
