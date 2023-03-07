@@ -1,26 +1,12 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <div style="margin-top: 10rem"></div>
+    <div>
+      Token:
+      <textarea v-model="token"></textarea>
+    </div>
+    <hr />
+    <button @click="fetchToken" style="margin-right: 10px">Fetch Token</button>
+    <button @click="launchLiveKit">Launch LiveKit</button>
+  </div>
 </template>
-
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
-</script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
