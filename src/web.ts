@@ -10,4 +10,8 @@ export class VideoLivekitPluginWeb
     console.log('ECHO', options);
     return options;
   }
+  
+  async launchLivekit(options: { token: string }): Promise<void> {
+    console.log('launchLivekit', options);
+  }
 }

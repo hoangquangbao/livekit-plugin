@@ -4,7 +4,11 @@ const config: CapacitorConfig = {
   appId: 'com.example.app',
   appName: 'example',
   webDir: 'dist',
-  bundledWebRuntime: false
+  bundledWebRuntime: false,
+  server: {
+		url: "http://localhost:8080/",
+		cleartext: true
+	}
 };
 
 export default config;
