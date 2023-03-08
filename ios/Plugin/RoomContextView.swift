@@ -47,7 +47,12 @@ struct RoomContextView: View {
             if shouldShowRoomView {
                 RoomView()
             } else {
-                ProgressView()
+                if roomCtx.room.room.connectionState == .disconnected() {
+                    Text("Do some actions on this screen")
+                        .foregroundColor(.green)
+                } else {
+                    ProgressView()
+                }
             }
         }
         .environment(\.colorScheme, .dark)
