@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		03FC29A292ACC40490383A1F /* Pods_Plugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2A61DA5A1F2DD4F959604D /* Pods_Plugin.framework */; };
+		062F79B729B7346000118F9E /* AppContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062F79B629B7346000118F9E /* AppContext.swift */; };
+		062F79B929B7347500118F9E /* RoomContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062F79B829B7347500118F9E /* RoomContext.swift */; };
+		062F79BC29B7349A00118F9E /* ConnectionHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062F79BB29B7349A00118F9E /* ConnectionHistory.swift */; };
+		062F79BE29B734B200118F9E /* SecureStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062F79BD29B734B200118F9E /* SecureStore.swift */; };
+		062F79C029B734DE00118F9E /* Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062F79BF29B734DE00118F9E /* Custom.swift */; };
+		062F79C229B734FB00118F9E /* ExampleObservableRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062F79C129B734FB00118F9E /* ExampleObservableRoom.swift */; };
+		062F79C429B7350D00118F9E /* ParticipantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062F79C329B7350D00118F9E /* ParticipantView.swift */; };
+		062F79C629B7352100118F9E /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062F79C529B7352100118F9E /* RoomView.swift */; };
+		062F79C829B7353300118F9E /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062F79C729B7353300118F9E /* RoomViewController.swift */; };
+		062F79CA29B7354700118F9E /* RoomContextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062F79C929B7354700118F9E /* RoomContextView.swift */; };
+		062F79CC29B7356C00118F9E /* RoomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062F79CB29B7356C00118F9E /* RoomViewModel.swift */; };
 		20C0B05DCFC8E3958A738AF2 /* Pods_PluginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6753A823D3815DB436415E3 /* Pods_PluginTests.framework */; };
 		2F98D68224C9AAE500613A4C /* VideoLivekitPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F98D68124C9AAE400613A4C /* VideoLivekitPlugin.swift */; };
 		50ADFF92201F53D600D50D53 /* Plugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50ADFF88201F53D600D50D53 /* Plugin.framework */; };
@@ -29,6 +40,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		062F79B629B7346000118F9E /* AppContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContext.swift; sourceTree = "<group>"; };
+		062F79B829B7347500118F9E /* RoomContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomContext.swift; sourceTree = "<group>"; };
+		062F79BB29B7349A00118F9E /* ConnectionHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionHistory.swift; sourceTree = "<group>"; };
+		062F79BD29B734B200118F9E /* SecureStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureStore.swift; sourceTree = "<group>"; };
+		062F79BF29B734DE00118F9E /* Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom.swift; sourceTree = "<group>"; };
+		062F79C129B734FB00118F9E /* ExampleObservableRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleObservableRoom.swift; sourceTree = "<group>"; };
+		062F79C329B7350D00118F9E /* ParticipantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantView.swift; sourceTree = "<group>"; };
+		062F79C529B7352100118F9E /* RoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
+		062F79C729B7353300118F9E /* RoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
+		062F79C929B7354700118F9E /* RoomContextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomContextView.swift; sourceTree = "<group>"; };
+		062F79CB29B7356C00118F9E /* RoomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewModel.swift; sourceTree = "<group>"; };
 		2F98D68124C9AAE400613A4C /* VideoLivekitPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoLivekitPlugin.swift; sourceTree = "<group>"; };
 		3B2A61DA5A1F2DD4F959604D /* Pods_Plugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50ADFF88201F53D600D50D53 /* Plugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Plugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +91,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		062F79B529B7344E00118F9E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				062F79B629B7346000118F9E /* AppContext.swift */,
+				062F79B829B7347500118F9E /* RoomContext.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		062F79BA29B7348C00118F9E /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				062F79BB29B7349A00118F9E /* ConnectionHistory.swift */,
+				062F79BD29B734B200118F9E /* SecureStore.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 		50ADFF7E201F53D600D50D53 = {
 			isa = PBXGroup;
 			children = (
@@ -92,11 +132,20 @@
 		50ADFF8A201F53D600D50D53 /* Plugin */ = {
 			isa = PBXGroup;
 			children = (
+				062F79BA29B7348C00118F9E /* Support */,
+				062F79B529B7344E00118F9E /* Controllers */,
 				50E1A94720377CB70090CE1A /* VideoLivekitPluginPlugin.swift */,
 				2F98D68124C9AAE400613A4C /* VideoLivekitPlugin.swift */,
 				50ADFF8B201F53D600D50D53 /* VideoLivekitPluginPlugin.h */,
 				50ADFFA72020EE4F00D50D53 /* VideoLivekitPluginPlugin.m */,
 				50ADFF8C201F53D600D50D53 /* Info.plist */,
+				062F79BF29B734DE00118F9E /* Custom.swift */,
+				062F79C129B734FB00118F9E /* ExampleObservableRoom.swift */,
+				062F79C329B7350D00118F9E /* ParticipantView.swift */,
+				062F79C529B7352100118F9E /* RoomView.swift */,
+				062F79C729B7353300118F9E /* RoomViewController.swift */,
+				062F79C929B7354700118F9E /* RoomContextView.swift */,
+				062F79CB29B7356C00118F9E /* RoomViewModel.swift */,
 			);
 			path = Plugin;
 			sourceTree = "<group>";
@@ -323,8 +372,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				50E1A94820377CB70090CE1A /* VideoLivekitPluginPlugin.swift in Sources */,
+				062F79CA29B7354700118F9E /* RoomContextView.swift in Sources */,
+				062F79B729B7346000118F9E /* AppContext.swift in Sources */,
+				062F79C029B734DE00118F9E /* Custom.swift in Sources */,
+				062F79C829B7353300118F9E /* RoomViewController.swift in Sources */,
+				062F79CC29B7356C00118F9E /* RoomViewModel.swift in Sources */,
+				062F79BC29B7349A00118F9E /* ConnectionHistory.swift in Sources */,
+				062F79C429B7350D00118F9E /* ParticipantView.swift in Sources */,
+				062F79C229B734FB00118F9E /* ExampleObservableRoom.swift in Sources */,
+				062F79B929B7347500118F9E /* RoomContext.swift in Sources */,
 				2F98D68224C9AAE500613A4C /* VideoLivekitPlugin.swift in Sources */,
+				062F79C629B7352100118F9E /* RoomView.swift in Sources */,
 				50ADFFA82020EE4F00D50D53 /* VideoLivekitPluginPlugin.m in Sources */,
+				062F79BE29B734B200118F9E /* SecureStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
